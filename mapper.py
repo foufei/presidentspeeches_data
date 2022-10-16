@@ -27,7 +27,7 @@ def main(argv):
             # tab-delimited; the trivial word count is 1
             # valence_aggregate += valence_lookup_table[word]
             # word_count += 1  
-            print(word,1)
+            print(word + "\t" + "1")
             
 
 if __name__ == "__main__":

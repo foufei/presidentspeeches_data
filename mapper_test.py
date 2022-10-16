@@ -2,8 +2,12 @@
 
 import sys
 
+count = 0
 # input comes from STDIN (standard input)
 for line in sys.stdin:
+    if count < 2:
+        count+=1
+        pass
     # remove leading and trailing whitespace
     line = line.strip()
     # split the line into words
